@@ -6,6 +6,7 @@ def check_palindrome(s):
             return False
         else:
             return check_palindrome(s[1:-1])
+
 var = input("Enter a value : ")
 if check_palindrome(var):
     print("the input is a palindrome")
